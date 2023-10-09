@@ -1,0 +1,260 @@
+.gender{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 14px;
+}
+
+.app{
+  flex-direction: column;
+display: flex;
+justify-content: center;
+}
+.papa2{
+  margin-top: 2%;
+width: 100%;
+}
+
+.separacion{
+border-left: #222 solid 2px;
+
+}
+
+.container-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+
+.divisor {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+.form-panel {
+  flex: 1;
+  padding: 20px;
+}
+
+.form-panel form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-panel .form-group {
+  margin-bottom: 15px;
+}
+
+.form-panel .form-control {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.date-picker {
+  width: 100%;
+
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.time-buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the time buttons horizontally */
+}
+
+.time-button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px; /* Add some spacing between time buttons */
+  cursor: pointer;
+}
+
+.time-button.active {
+  background-color: green;
+}
+
+/* Add some spacing and margin for better alignment of inputs */
+.form-group input {
+  margin-bottom: 5px;
+}
+
+.image{
+
+  width: 50%;
+}
+  
+  .left-panel,
+  .middle-panel,
+  .right-panel {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .left-panel form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .left-panel .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .left-panel .form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-primary {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  .middle-panel .date-picker {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .middle-panel .time-buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .middle-panel .time-button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .middle-panel .time-button.active {
+    background-color: green;
+  }
+
+  body {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  }
+  .react-calendar { 
+    width: 400px;
+    max-width: 100%;
+    background-color: #fff;
+    color: #222;
+    border-radius: 8px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.125em;
+   }
+   .react-calendar__navigation button {
+    color: #1e027a;
+    min-width: 44px;
+    background: none;
+    font-size: 16px;
+    margin-top: 8px;
+   }
+   .react-calendar__navigation button:enabled:hover,
+   .react-calendar__navigation button:enabled:focus {
+    background-color: #f8f8fa;
+   }
+   .react-calendar__navigation button[disabled] {
+    background-color: #f0f0f0;
+   }
+   abbr[title] {
+    text-decoration: none;
+   }
+   .react-calendar__month-view__days__day--weekend {
+    color: #160938;
+   } 
+   .react-calendar__tile:enabled:hover,
+   .react-calendar__tile:enabled:focus {
+    background: #f8f8fa;
+    color: #1e027a;
+    border-radius: 6px;
+   }
+   .react-calendar__tile--now {
+    background: #1e027a;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #1e027a;
+   }
+   .react-calendar__tile--now:enabled:hover,
+   .react-calendar__tile--now:enabled:focus {
+    background: #1e027a;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #1e027a;
+   }
+   .react-calendar__tile--hasActive:enabled:hover,
+   .react-calendar__tile--hasActive:enabled:focus {
+    background: #f8f8fa;
+   }
+   .react-calendar__tile--active {
+    background: #1e027a;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+   }
+   .react-calendar__tile--active:enabled:hover,
+   .react-calendar__tile--active:enabled:focus {
+    background: #1e027a;
+    color: white;
+   }
+   .react-calendar--selectRange .react-calendar__tile--hover {
+    background-color: #f8f8fa;
+   }
+   .react-calendar__tile--range {
+    background: #f8f8fa;
+    color: #1e027a;
+    border-radius: 0;
+   }
+   .react-calendar__tile--rangeStart {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background: #1e027a;
+    color: white;
+   }
+   .react-calendar__tile--rangeEnd {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background: #1e027a;
+    color: white;
+   }
+  
+   .time-buttons-container{
+
+    display: flex;
+    flex-direction: row;
+justify-content: space-evenly;
+   }
